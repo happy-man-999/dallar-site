@@ -18,19 +18,24 @@ Edit `public/config.js`:
 | Setting | What to put |
 | --- | --- |
 | `buyUrl` | Polar checkout link for the $5/month product |
-| `downloadUrl` | Keep `/download/Dallar-Setup.exe` and upload the installer (below), or use any other link |
+| `downloadUrl` | Already points at the latest GitHub release (below) |
 | `supportEmail` | The email customers write to |
 
 ## The installer
 
-Upload `Dallar-Setup.exe` into the server's `downloads/` folder with the panel's
-file manager. It's served at `/download/Dallar-Setup.exe`. It is not in git
-(GitHub refuses files over 100 MB), so upload it again after each new release.
+Attach `Dallar-Setup.exe` to a GitHub release of this repo (Releases → Draft a new
+release → tag e.g. `v1.6.0` → drop the file in → Publish). The site's download
+link always points at the latest release, so each new version is just a new
+release with a file of the same name.
 
-## Hosting (Silly Development)
+## Hosting (Render, free static site)
 
-`sillydev.conf` sets Node 24 and `server.js` as the main file. Connect this
-repository in the panel and deploy; changes to the conf apply on the next deploy.
+Render → New → **Static Site** → this repo. Build command: empty. Publish
+directory: `public`. (Or New → Blueprint, which reads `render.yaml`.) Static
+sites don't sleep, unlike free Web Services.
+
+`server.js` and `sillydev.conf` are for hosting it as a Node server instead
+(e.g. Silly Development); Render's static site doesn't use them.
 
 ## Pages
 

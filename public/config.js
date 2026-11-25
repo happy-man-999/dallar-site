@@ -3,9 +3,9 @@
 window.DALLAR = {
   // Polar checkout link for the $5/month product (Products → Checkout Links).
   buyUrl: "https://buy.polar.sh/REPLACE-ME",
-  // The installer. Upload it to the server's downloads/ folder through the
-  // hosting panel and keep this path, or point it anywhere else.
-  downloadUrl: "/download/Dallar-Setup.exe",
+  // The installer, attached to the newest GitHub release of this repo as
+  // Dallar-Setup.exe. This link always points at the latest release.
+  downloadUrl: "https://github.com/happy-man-999/dallar-site/releases/latest/download/Dallar-Setup.exe",
   // Where customers write to you.
   supportEmail: "support@example.com",
 };
