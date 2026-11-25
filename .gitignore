@@ -1,0 +1,5 @@
+node_modules/
+# Installers are uploaded to the server by hand; too big for git.
+downloads/*
+!downloads/README.txt
+.DS_Store

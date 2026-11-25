@@ -1,0 +1,20 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dallar: a D whose dollar bar shows only above and below the letter.
+       No tile behind it — the mark alone, on a transparent background. -->
+  <defs>
+    <!-- In canvas units: a gradient sized to each shape could not paint the
+         vertical bars, which have no width to stretch it over. -->
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1024" y2="1024">
+      <stop offset="0" stop-color="#6c8cff"/>
+      <stop offset="1" stop-color="#7d5cff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Drawn at 448x768 around the centre, then scaled up to fill the canvas. -->
+  <g transform="translate(512 512) scale(1.25) translate(-512 -512)">
+    <path d="M 344 304 H 472 A 208 208 0 0 1 472 720 H 344 Z"
+          fill="none" stroke="url(#g)" stroke-width="112" stroke-linejoin="round"/>
+    <line x1="508" y1="164" x2="508" y2="250" stroke="url(#g)" stroke-width="72" stroke-linecap="round"/>
+    <line x1="508" y1="774" x2="508" y2="860" stroke="url(#g)" stroke-width="72" stroke-linecap="round"/>
+  </g>
+</svg>
