@@ -2,12 +2,12 @@
 // button and contact link on every page reads from here.
 window.DALLAR = {
   // Polar checkout link for the $5/month product (Products → Checkout Links).
-  buyUrl: "https://buy.polar.sh/REPLACE-ME",
+  buyUrl: "https://buy.polar.sh/polar_cl_SqWBg5UntKxLzIxIxevCsoFP2F530CkTL2Bz321rxDs",
   // The installer, attached to the newest GitHub release of this repo as
   // Dallar-Setup.exe. This link always points at the latest release.
   downloadUrl: "https://github.com/happy-man-999/dallar-site/releases/latest/download/Dallar-Setup.exe",
   // Where customers write to you.
-  supportEmail: "support@example.com",
+  supportEmail: "emicena23@gmail.com",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
