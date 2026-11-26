@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Dallar: your work, money and job search in one floating window</title>
-  <meta name="description" content="Dallar is a desktop companion for Windows that floats over your work: a focus timer and to-dos, subscription and payment tracking, a job-search organizer and handy tools. 14-day free trial, then $5/month per computer." />
+  <meta name="description" content="Dallar is a desktop companion for Windows that floats over your work: a focus timer and to-dos, money tracking, interviews from Google Calendar, quick notes, live captions and global hotkeys. 14-day free trial, then $5/month per computer." />
   <meta property="og:title" content="Dallar: your desktop companion" />
   <meta property="og:description" content="Focus timer, to-dos, money tracking and a job-search organizer in one small always-on-top window." />
   <meta property="og:image" content="/img/now.png" />
@@ -57,32 +57,47 @@
           <div class="card">
             <div class="card__ico">🎯</div>
             <h3>Focus timer and to-dos</h3>
-            <p>Start a 25-minute session on a task, track focused time, and tick off to-dos and daily habits right from the widget.</p>
+            <p>Start a focus session on a task, track focused time, and tick off to-dos, daily habits and routines right from the widget.</p>
           </div>
           <div class="card">
             <div class="card__ico">💸</div>
             <h3>Money at a glance</h3>
-            <p>See what your subscriptions and bills cost per month, get reminded before each payment, and log money in and out.</p>
+            <p>Subscriptions, bills and phone lines added up per month, reminders before each payment, and a month-by-month record of money in and out.</p>
           </div>
           <div class="card">
             <div class="card__ico">🎙️</div>
-            <h3>Job-search organizer</h3>
-            <p>Keep profiles, contacts and interviews together. Interviews sync from Google Calendar, with a board for results.</p>
+            <h3>Interviews from your calendar</h3>
+            <p>Every morning Dallar reads the day's interviews from Google Calendar with the company, time and meeting link, then asks how each one went.</p>
+          </div>
+          <div class="card">
+            <div class="card__ico">⌨️</div>
+            <h3>Global hotkeys</h3>
+            <p>Set your own key combinations to turn on captions, open the text tool or pop up a note, from any app, without opening Dallar first.</p>
+          </div>
+          <div class="card">
+            <div class="card__ico">📝</div>
+            <h3>Quick notes</h3>
+            <p>Keep the text you paste again and again. Copy it in one click, or give a note a hotkey and it opens in its own little Notepad-style window.</p>
           </div>
           <div class="card">
             <div class="card__ico">🔍</div>
             <h3>Search everything</h3>
-            <p>One shortcut finds any task, payment, contact or note, and jumps straight to it.</p>
+            <p>Ctrl+Shift+F finds any task, payment, contact, interview or note, and jumps straight to it.</p>
+          </div>
+          <div class="card">
+            <div class="card__ico">💬</div>
+            <h3>Live captions</h3>
+            <p>Subtitles for anything your computer plays: calls, videos, meetings. The speech model runs on your PC, so nothing is recorded or sent anywhere.</p>
+          </div>
+          <div class="card">
+            <div class="card__ico">✍️</div>
+            <h3>Humanize text</h3>
+            <p>Paste AI-written text and get it back without the giveaways, plus a list of the spots worth rewriting by hand.</p>
           </div>
           <div class="card">
             <div class="card__ico">🔒</div>
-            <h3>Private by design</h3>
-            <p>Your data stays on your computer. Add a password lock and automatic backups, to a folder or your own cloud.</p>
-          </div>
-          <div class="card">
-            <div class="card__ico">🧰</div>
-            <h3>Handy tools</h3>
-            <p>Live captions for anything playing on your computer, and a text clean-up tool for writing that reads naturally.</p>
+            <h3>Private and protected</h3>
+            <p>Your data stays on your computer, behind an optional password. Encrypted backups go to a folder or your own cloud (Nextcloud or any WebDAV).</p>
           </div>
         </div>
       </div>
@@ -95,14 +110,15 @@
             <div class="eyebrow">Stay on track</div>
             <h2>A widget that keeps your day in front of you</h2>
             <p class="sub" style="margin-bottom:0">
-              Dallar floats above your other windows without getting in the way. Shrink it to a strip, or
-              minimize it to the taskbar and it still shows your timer and top to-dos.
+              Dallar floats above your other windows without getting in the way. Shrink it to a small
+              widget, or minimize it and a slim strip on the taskbar keeps your timer, next payment and
+              overdue to-dos in view. Prefer a plain taskbar button? Switch the strip off.
             </p>
             <ul class="ticks">
               <li>Focus sessions with custom lengths and a gentle chime</li>
               <li>Daily habits that reset every morning</li>
               <li>Routines that start a session at the right time</li>
-              <li>Global shortcut to show or hide it: Ctrl+Shift+D</li>
+              <li>Show or hide it from anywhere: Ctrl+Shift+D</li>
             </ul>
           </div>
           <div class="row__shot"><img src="/img/now.png" alt="Dallar's Now tab" width="460" height="700" loading="lazy" /></div>
@@ -123,6 +139,55 @@
             </ul>
           </div>
           <div class="row__shot"><img src="/img/money.png" alt="Dallar's Money tab with a monthly total of subscriptions" width="460" height="700" loading="lazy" /></div>
+        </div>
+
+        <div class="row">
+          <div class="row__text">
+            <div class="eyebrow">Without leaving what you're doing</div>
+            <h2>Hotkeys for the things you reach for most</h2>
+            <p class="sub" style="margin-bottom:0">
+              Pick a key combination for each, and it works in every app. Dallar refuses a combination
+              it already uses and tells you if another app has taken it.
+            </p>
+            <ul class="ticks">
+              <li>Captions on and off in the middle of a call</li>
+              <li>The text tool open with the cursor ready to paste</li>
+              <li>Any note in its own window, saved as you type</li>
+            </ul>
+          </div>
+          <div class="row__shot">
+            <div class="keys" role="list" aria-label="Example hotkeys">
+              <div class="keys__row" role="listitem"><span class="keys__combo"><kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>D</kbd></span><span>Show or hide Dallar</span></div>
+              <div class="keys__row" role="listitem"><span class="keys__combo"><kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>F</kbd></span><span>Search everything</span></div>
+              <div class="keys__row" role="listitem"><span class="keys__combo"><kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>C</kbd></span><span>Live captions on / off</span></div>
+              <div class="keys__row" role="listitem"><span class="keys__combo"><kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>H</kbd></span><span>Open Humanize</span></div>
+              <div class="keys__row" role="listitem"><span class="keys__combo"><kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>N</kbd></span><span>Pop up a note</span></div>
+              <p class="keys__note">The last three are examples: you choose your own.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row--flip">
+          <div class="row__text">
+            <div class="eyebrow">Job search, organized</div>
+            <h2>Every interview read in, every result kept</h2>
+            <p class="sub" style="margin-bottom:0">
+              Connect Google Calendar once (read-only). Each morning Dallar picks out the day's
+              interviews: who, which company, what role, when, and the Meet, Zoom or Teams link.
+            </p>
+            <ul class="ticks">
+              <li>At the end of the day, mark each one finished or skipped and save the recording link</li>
+              <li>A full-screen board: coming up, awaiting result, skipped, finished</li>
+              <li>Fix a field by hand and the next sync leaves it alone</li>
+            </ul>
+          </div>
+          <div class="row__shot">
+            <div class="board" aria-hidden="true">
+              <div class="board__col"><div class="board__head">Coming</div><div class="board__card"><b>10:00</b> Frontend Engineer<span>Acme · Meet</span></div><div class="board__card"><b>15:30</b> React Developer<span>Globex · Zoom</span></div></div>
+              <div class="board__col"><div class="board__head">Awaiting result</div><div class="board__card"><b>Yesterday</b> Full-stack Dev<span>Initech · Teams</span></div></div>
+              <div class="board__col"><div class="board__head">Finished</div><div class="board__card"><b>Mon</b> Software Engineer<span>Umbrella · Meet</span></div><div class="board__card"><b>Fri</b> UI Developer<span>Hooli · Zoom</span></div></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -168,7 +233,7 @@
           </details>
           <details>
             <summary>Where is my data stored?</summary>
-            <p>Only on your computer. Dallar has no cloud account and we never see your tasks, payments or contacts. The app only contacts the license server to check your key.</p>
+            <p>Only on your computer. Dallar has no cloud account and we never see your tasks, payments or contacts. Dallar goes online to check your license key and, only if you set them up, to read your Google Calendar and save backups to your own cloud.</p>
           </details>
           <details>
             <summary>Does it work offline?</summary>
@@ -177,6 +242,14 @@
           <details>
             <summary>How do I cancel?</summary>
             <p>Cancel anytime from the link in your purchase email (the Polar customer portal). Dallar keeps working until the end of the month you paid for.</p>
+          </details>
+          <details>
+            <summary>Do the hotkeys work when Dallar is hidden?</summary>
+            <p>Yes. Hotkeys work from any app, whether Dallar is open, minimized or hidden in the tray. If a password lock is on, Dallar asks for it first.</p>
+          </details>
+          <details>
+            <summary>Is my data backed up?</summary>
+            <p>If you turn it on. Backups are encrypted on your computer before they're saved to a folder or sent to your own cloud storage (Nextcloud or any WebDAV server). To move to a new computer, enter the same cloud details and restore.</p>
           </details>
           <details>
             <summary>Which systems are supported?</summary>
