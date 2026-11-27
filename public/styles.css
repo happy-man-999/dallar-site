@@ -97,6 +97,8 @@ h2 { font-size: clamp(28px, 3.4vw, 38px); letter-spacing: -0.015em; line-height:
 .row--flip .row__text { order: 2; }
 .row__shot { display: flex; justify-content: center; }
 .row__shot img { border-radius: 16px; box-shadow: 0 24px 70px rgba(0, 0, 0, 0.5); max-height: 560px; width: auto; }
+/* a cropped part of a screen rather than a whole window: give it a frame */
+.row__shot img.shot--panel { background: #11141b; border: 1px solid var(--border); padding: 6px; }
 .ticks { list-style: none; padding: 0; margin: 18px 0 0; }
 .ticks li { padding-left: 28px; position: relative; margin: 8px 0; color: var(--muted); }
 .ticks li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
